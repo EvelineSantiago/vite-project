@@ -9,8 +9,8 @@
 
 <Router {url}>
   <nav>
-    <Link to="/"><img src={plantLogo} class="logo" alt="Logo GardenSmart" /></Link>
-    <h1><Link to="/">GardenSmart</Link></h1>
+    <Link to="/"><img src={plantLogo} class="logo" alt="Logo Kaáuni" /></Link>
+    <h1><Link to="/">Kaáuni</Link></h1>
   </nav>
 
   <main>
@@ -19,7 +19,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2023 GardenSmart. Todos os direitos reservados.</p>
+    <p>&copy; 2023 Kaáuni. Todos os direitos reservados.</p>
   </footer>
 </Router>
 
