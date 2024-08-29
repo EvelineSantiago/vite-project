@@ -5,7 +5,8 @@ const app = new App({
   target: document.body,
   props: {
     url: window.location.pathname
-  }
+  },
+  prerender: true
 })
 
 export default app
