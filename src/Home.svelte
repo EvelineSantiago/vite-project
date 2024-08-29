@@ -23,14 +23,14 @@
 </section>
 
 <section class="about box">
-  <h2>Sobre o GardenSmart</h2>
+  <h2>Sobre o Kaáuni</h2>
   <p>
-    GardenSmart é seu companheiro definitivo para jardinagem eficiente e sustentável. Nosso aplicativo ajuda você a gerenciar os recursos do seu jardim, acompanhar o crescimento das plantas e otimizar suas práticas de jardinagem.
+    Kaáuni é seu companheiro definitivo para jardinagem eficiente e sustentável. Nosso aplicativo ajuda você a gerenciar os recursos do seu jardim, acompanhar o crescimento das plantas e otimizar suas práticas de jardinagem.
   </p>
 
   <h3>Desafios que Resolvemos</h3>
   <p>
-    O GardenSmart foi desenvolvido para abordar os principais desafios enfrentados pelos jardineiros modernos:
+    O Kaáuni foi desenvolvido para abordar os principais desafios enfrentados pelos jardineiros modernos:
   </p>
   <ul>
     <li>Uso excessivo de água e fertilizantes</li>
@@ -55,12 +55,12 @@
   </ul>
   <h3>Modelo de Negócio</h3>
   <p>
-    O GardenSmart oferece um modelo freemium. Recursos básicos estão disponíveis gratuitamente, enquanto recursos avançados como detecção de doenças em plantas com IA e conselhos premium de especialistas estão disponíveis através de uma assinatura mensal.
+    O Kaáuni oferece um modelo freemium. Recursos básicos estão disponíveis gratuitamente, enquanto recursos avançados como detecção de doenças em plantas com IA e conselhos premium de especialistas estão disponíveis através de uma assinatura mensal.
   </p>
   
   <h3>Nossos Diferenciais</h3>
   <p>
-    Enquanto existem outras soluções de jardinagem no mercado, o GardenSmart se destaca por:
+    Enquanto existem outras soluções de jardinagem no mercado, o Kaáuni se destaca por:
   </p>
   <ul>
     <li>Foco em sustentabilidade e eficiência de recursos</li>
@@ -72,7 +72,7 @@
 
   <h3>Lançamento no Mercado</h3>
   <p>
-    O GardenSmart será introduzido no mercado através de uma estratégia multi-canal:
+    O Kaáuni será introduzido no mercado através de uma estratégia multi-canal:
   </p>
   <ul>
     <li>Campanha de marketing digital focada em redes sociais e blogs de jardinagem</li>
