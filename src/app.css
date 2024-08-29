@@ -1,0 +1,111 @@
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: #45a049;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  height: 3em;
+  margin-right: 1rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 2em;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 1.5em;
+  color: var(--secondary-color);
+}
+
+header {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8em 1.5em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+
+.feature {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 1rem;
+}
+
+.about {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+
+  .feature {
+    margin: 1rem 0;
+  }
+}
