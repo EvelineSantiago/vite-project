@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #4CAF50;
+  --primary-color: #4caf50;
   --secondary-color: #45a049;
   --text-color: #333;
   --background-color: #f4f4f4;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -15,9 +15,7 @@ body {
 }
 
 #app {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
 }
 
 nav {
@@ -44,6 +42,10 @@ h2 {
 h3 {
   font-size: 1.5em;
   color: var(--secondary-color);
+}
+
+main {
+  padding: 2em;
 }
 
 header {
@@ -79,7 +81,7 @@ button:hover {
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
   margin: 0 1rem;
 }
 
@@ -87,7 +89,7 @@ button:hover {
   background-color: white;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 ul {
