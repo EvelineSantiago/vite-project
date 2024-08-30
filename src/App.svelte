@@ -1,7 +1,6 @@
 <script lang="js">
   import { Router, Route, Link } from "svelte-routing";
   import Home from "./Home.svelte";
-  import GetStarted from "./routes/GetStarted.svelte";
   import plantLogo from "./assets/plant-logo.svg";
 
   export let url = "";
@@ -15,7 +14,6 @@
 
   <main>
     <Route path="/" component={Home} />
-    <Route path="/get-started" component={GetStarted} />
   </main>
 
   <footer>
