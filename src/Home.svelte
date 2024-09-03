@@ -125,17 +125,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5em;
   }
 
   header > h2 {
     max-width: 20em;
+    font-size: 3em;
+    color: white;
+    filter: drop-shadow(0px 5px 0px hsl(50, 50%, 50%, 50%))
+      drop-shadow(0px 10px 0px hsl(100, 50%, 50%, 50%));
+  }
+
+  header > p {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
   }
 
   .about.box {
     background-color: #fff5e6;
   }
+  section {
+    background-image: url("assets/leaves.jpeg");
+  }
 
-  /* You may need to adjust these styles to fit your design preferences */
   h2,
   h3 {
     margin-top: 0;

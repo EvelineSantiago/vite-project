@@ -9,7 +9,7 @@
 <Router {url}>
   <nav>
     <Link to="/"><img src={plantLogo} class="logo" alt="Logo Kaáuni" /></Link>
-    <h1><Link to="/">Kaáuni</Link></h1>
+    <Link to="/">Kaáuni</Link>
   </nav>
 
   <main>
@@ -23,23 +23,26 @@
 
 <style>
   nav {
-    background-color: #4caf50; /* Change this to your desired color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add dropdown shadow */
+    /* background-color: #4caf50; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     padding: 1rem;
+    position: absolute;
+    /* width: 100%; */
+    height: fit-content;
+    border-radius: 0 10px 10px 0;
+    background: hsl(0, 0%, 100%);
+    margin-top: 20px;
   }
 
   nav :global(a) {
-    color: white;
+    color: hsl(0, 0%, 20%);
     text-decoration: none;
     display: flex;
-  }
-
-  h1 {
-    margin: 0;
+    font-size: 1em;
   }
 
   .logo {
-    height: 3rem;
-    margin-right: 1rem;
+    height: 2rem;
+    margin-right: 0.5rem;
   }
 </style>
