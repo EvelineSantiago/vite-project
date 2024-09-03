@@ -9,6 +9,10 @@
   background-color: var(--background-color);
 }
 
+html {
+  background-image: url(assets/leaves.jpeg);
+  background-size: 800px;
+}
 body {
   margin: 0;
   padding: 0;
@@ -46,8 +50,6 @@ h3 {
 
 main {
   padding: 2em;
-  background-image: url(assets/leaves.jpeg);
-  background-size: 800px;
 }
 
 header {

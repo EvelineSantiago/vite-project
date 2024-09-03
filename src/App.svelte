@@ -2,8 +2,24 @@
   import { Router, Route, Link } from "svelte-routing";
   import Home from "./Home.svelte";
   import plantLogo from "./assets/plant-logo.svg";
+  import { onMount } from "svelte";
 
   export let url = "";
+
+  const html = /** @type {HTMLElement}*/ (document.children[0]);
+  let h2 = null;
+  html.style.backgroundPositionY = `${Math.sin((0 - 1) * 0.05 + 1) * 100}px`;
+
+  document.addEventListener("scroll", (e) => {
+    let scrollY = html.scrollTop;
+    html.style.backgroundPositionY = `${Math.pow((scrollY - 5.0) * 0.02 + 5.0, 0.3) * 1000.0}px`;
+    let value = 1 - scrollY / 200;
+    h2.style.filter = `drop-shadow(0px ${5 * value}px 0px hsl(50, 70%, 60%, 60%))
+      drop-shadow(0px ${value * 10}px 0px hsl(100, 70%, 60%, 60%))`;
+  });
+  onMount(() => {
+    h2 = document.querySelector("header");
+  });
 </script>
 
 <Router {url}>

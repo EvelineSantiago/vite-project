@@ -1,5 +1,4 @@
 <script lang="js">
-  import { Link } from "svelte-routing";
 </script>
 
 <header>
@@ -132,8 +131,8 @@
     max-width: 20em;
     font-size: 3em;
     color: white;
-    filter: drop-shadow(0px 5px 0px hsl(50, 50%, 50%, 50%))
-      drop-shadow(0px 10px 0px hsl(100, 50%, 50%, 50%));
+    /* filter: drop-shadow(0px 5px 0px hsl(50, 50%, 50%, 50%))
+      drop-shadow(0px 10px 0px hsl(100, 50%, 50%, 50%)); */
   }
 
   header > p {
@@ -144,9 +143,6 @@
 
   .about.box {
     background-color: #fff5e6;
-  }
-  section {
-    background-image: url("assets/leaves.jpeg");
   }
 
   h2,
